@@ -15,6 +15,10 @@ class Program
 
         Console.WindowWidth = 32;
 
+        Console.WriteLine("Sterowanie: strzalki kierunkowe. Celem gry jest zbieranie punktow.");
+
+        Thread.Sleep(2000);
+
         int screenwidth = Console.WindowWidth;
 
         int screenheight = Console.WindowHeight;
