@@ -247,7 +247,7 @@ class Program
 
                 Console.SetCursorPosition(screenwidth / 5, screenheight / 2 + 1);
 
-                Console.WriteLine("Dein Score ist: " + score);
+                Console.WriteLine("Punkty " + score);
 
                 Console.SetCursorPosition(screenwidth / 5, screenheight / 2 + 2);
 
