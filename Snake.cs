@@ -238,19 +238,12 @@ class Program
             {
 
                 Console.Clear();
-
                 Console.ForegroundColor = ConsoleColor.Red;
-
                 Console.SetCursorPosition(screenwidth / 5, screenheight / 2);
-
                 Console.WriteLine("Game Over");
-
                 Console.SetCursorPosition(screenwidth / 5, screenheight / 2 + 1);
-
                 Console.WriteLine("Dein Score ist: " + score);
-
                 Console.SetCursorPosition(screenwidth / 5, screenheight / 2 + 2);
-
                 Environment.Exit(0);
 
             }
